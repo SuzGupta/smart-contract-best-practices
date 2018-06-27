@@ -13,8 +13,9 @@ Any non-trivial contract will have errors in it. Your code must, therefore, be a
 ## Rollout carefully
 
 It is always better to catch bugs before a full production release.
+
   - Test contracts thoroughly, and add tests whenever new attack vectors are discovered
-  - Provide [bug bounties](#bounties) starting from alpha testnet releases
+  - Provide [bug bounties](docs/software_engineering.md#bug_bounty_programs) starting from alpha testnet releases
   - Rollout in phases, with increasing usage and testing in each phase
 
 ## Keep contracts simple
